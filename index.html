@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div id="gameContainer">
+      <div id="gameInfo">
+        <div id="watermark">Level: <span id="level">1</span></div>
+
+        <div class="upper">
+          <div class="top">Max-Attempts: <span id="maxAttempts">0</span></div>
+          <div></div>
+          <div class="top">Target Score: <span id="targetScore">0</span></div>
+        </div>
+
+        <div class="lower">
+          <div class="top">Attempts: <span id="currentAttempts">0</span></div>
+          <div></div>
+          <div i class="top">
+            Current Score: <span id="currentScore">0</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="container"></div>
+
+      <div id="rollButtonContainer">
+        <button id="rollButton">Roll Dice</button>
+      </div>
+
+      <div id="scoreDisplay">
+        <div id="scoreCircle">0</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
